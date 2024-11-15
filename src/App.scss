@@ -37,7 +37,7 @@
 .legal-info {
   text-wrap: balance;
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
   margin-top: 30px;
 }
 
@@ -49,11 +49,18 @@
 
   img {
     max-width: 80%;
+    min-width: 300px;
   }
 }
 
 @media screen and (min-width: 1000px) {
   .container {
     flex-direction: row;
+  }
+
+  .gob-img {
+    img {
+      max-width: 600px;
+    }
   }
 }
