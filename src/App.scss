@@ -41,6 +41,17 @@
   margin-top: 30px;
 }
 
+.gob-img {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  img {
+    max-width: 80%;
+  }
+}
+
 @media screen and (min-width: 1000px) {
   .container {
     flex-direction: row;

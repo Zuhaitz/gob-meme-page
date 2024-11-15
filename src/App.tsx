@@ -1,5 +1,6 @@
 import "./App.scss";
 import stopImg from "./assets/images/Prohibido4.png";
+import gobImg from "./assets/images/logoministerioMOD.png";
 
 function App() {
   return (
@@ -35,6 +36,10 @@ function App() {
         1: (Artículo 195 del texto Refundido de la Ley de Propiedad Intelectual,
         aprobado por el Real Decreto legislativo 1/1996, de 12 de abril.)
       </p>
+
+      <div className="gob-img">
+        <img src={gobImg} alt="gob icon" />
+      </div>
     </main>
   );
 }
