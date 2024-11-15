@@ -1,35 +1,32 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.scss";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+    <div>
+      <h1>Está usted intentando acceder a un sitio web ilegal</h1>
+      <p>
+        El acceso a esta página ha sido bloqueado mediante Resolución de la
+        Sección Segunda de la Comisión de Propiedad Intelectual1 por facilitar
+        ilegalmente el acceso a contenidos protegidos por derechos de propiedad
+        intelectual.
       </p>
-    </>
-  )
+      <p>
+        Al acceder a contenidos protegidos por derechos de propiedad intelectual
+        que se han hecho públicos sin autorización, está contribuyendo a una
+        actividad ilegal y delictiva, y poniendo en riesgo su seguridad, la de
+        sus datos y dispositivos.
+      </p>
+      <p>
+        Por el contrario, si opta por acceder a contenidos de fuentes legales,
+        contribuye a la creación artística, a la mejora del producto cultural y
+        al desarrollo de la economía.
+      </p>
+      <p>
+        1: (Artículo 195 del texto Refundido de la Ley de Propiedad Intelectual,
+        aprobado por el Real Decreto legislativo 1/1996, de 12 de abril.)
+      </p>
+    </div>
+  );
 }
 
-export default App
+export default App;
